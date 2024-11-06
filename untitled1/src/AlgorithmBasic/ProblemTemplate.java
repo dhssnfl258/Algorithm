@@ -16,6 +16,8 @@ public abstract class ProblemTemplate {
     // 정리 메서드 - 필요한 경우 스캐너 닫기 등
     public void cleanup() {
         if (this.sc != null) {
+
+            
             this.sc.close();
         }
     }
