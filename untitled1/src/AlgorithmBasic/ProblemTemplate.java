@@ -17,7 +17,7 @@ public abstract class ProblemTemplate {
     public void cleanup() {
         if (this.sc != null) {
 
-            
+
             this.sc.close();
         }
     }
